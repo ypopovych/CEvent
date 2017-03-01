@@ -20,8 +20,8 @@
 //===----------------------------------------------------------------------===//
 
 module CEvent2 [system] {
-	umbrella header "cevent2.h"
+    umbrella header "cevent2.h"
     link "event"
     link "event_pthreads"
-	export *
+    export *
 }
