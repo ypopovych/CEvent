@@ -1,7 +1,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CEvent2",
+    name: "CEvent",
     pkgConfig: "libevent",
     providers: [
         .Apt("libevent-dev"),
