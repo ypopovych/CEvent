@@ -22,9 +22,6 @@
 module CEvent2 [system] {
 	umbrella header "cevent2.h"
     link "event"
-    link "ssl"
-    link "crypto"
     link "event_pthreads"
-    link "event_openssl"
 	export *
 }
